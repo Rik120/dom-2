@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Rubik;
+    border: none;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #333333;
+    margin: 0 auto;
+}
+.header-icons {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #D6D6D6;
+    font-size: 13px;
+}
+.header-icons p{
+    margin: 0 10px;
+    transition: 300ms;
+}
+.header-icons p:hover{
+    color: white;
+    /* filter: grayscale(0); */
+}
+.apple-logo {
+    width: 20px;
+    height: 20px;
+    filter: invert(80%);
+    transition: 300ms;
+    margin-left: 10px;
+}
+.apple-logo:hover {
+    filter: invert(100%);
+}
+.ads {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+    background-color: #F5F5F7;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+.ads-1 {
+    font-size: 16px;
+}
+.all-ads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 20px 5px;
+}
+.logo {
+    width: 25px;
+    height: 25px;
+}
+.main {
+    width: 90%;
+    height: 462px;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: red; */
+
+}
+.main-photo {
+    width: 54.5%;  
+    position: absolute;
+    /* background-color: grey; */
+    background-size: cover;
+    background-position: center;
+}
+.main-photo img{
+    border-radius: 20px;
+    height: 462px;
+}
+.main-right {
+    margin-top: 80px;
+    width: 35.9%;
+    height: 1370px;
+    position:relative; 
+    right: 76px;
+    /* background-color: blue; */
+    right: -990px;
+
+}
+.main-right-in {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+
+}
+.h-color {
+    color: #6E6E73;
+    margin-bottom: 25px;
+}
+.main-text {
+    display: flex;
+}
+.buttons {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.button {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+}
+.button-1 {
+    background-color: #576856;
+}
+.button-2 {
+    background-color: #F2F3EE;
+}
+.button-3 {
+    background-color: #FAEAD3;
+}
+.button-4 {
+    background-color: #5F5E5A;
+}
+.button-5 {
+    background-color: #ADC6DC;
+}
+.navbar_scrolled {
+    position: fixed;
+    bottom: 270px;
+}
+/* .cccc{
+    display: flex;
+} */
+
+.info-model {
+    height: 100px;
+
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-model-left-one p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #bf4800;
+}
+
+.info-model-left-two p {
+
+    font-size: 48px;
+    color: #1d1d1f;
+    font-weight: 600;
+}
+
+.info-model-left-three p {
+
+    font-size: 14px;
+    color: #1d1d1f;
+    font-weight: 400;
+}
+
+
+.info-model-right a {
+    text-decoration: none;
+    color: #1D1D1F;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.info-model-right-one {
+    padding: 17px 0px 0px 15px;
+    border-radius: 50px;
+    height: 60px;
+    width: 270px;
+    background-color: #F5F5F7;
+    margin: 0 0 0 50px;
+}
+
+.info-model-right-two {
+    padding: 20px 0px 0px 15px;
+    align-items: center;
+
+    border-radius:50px;
+    height: 60px;
+    width: 320px;
+    background-color: #F5F5F7;
+}
+.main-right-{
+    width: 80%;
+    height: 340px;
+
+    margin: 0 auto;
+}
+.main-right-1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+.main-right-1-s{
+    color: #6e6e73;;
+}
+.main-right-2 p{
+    font-size: 17px;
+    color: #1d1d1f;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.main-right-2-ss p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: none;
+}
+
+.main-right-2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    height: 84px;
+    width: 328px;
+    border: 1px solid #424245;
+}
+.main-right-4 {
+    margin-top: 20px;
+    padding: 20px 10px;
+    height: 92px;
+    width: 328px;
+    border-radius: 15px;
+    background-color: #F5F5F7;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main-right-4 p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.main-right-4-s p{
+    margin-bottom: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-right-qq{
+    height: 585px;
+    width: 328px;
+    /* background-color: red; */
+    bottom: 0;
+    right: 115px;
+    position: absolute;
+}
+.main-right-qq-1{
+    margin-top: 20px;
+    width: 328px;
+    height: 112px;
+    background-color: #F5F5F7;
+    display: flex;
+    border-radius: 15px;
+}
+.main-right-qq-11{
+    background-image: url(./img/iphone-storage-thumbnail.jfif);
+    background-size: cover;
+    background-position:center;
+    width: 35%;
+    height: 112px;
+    /* background-color: red; */
+    border-radius: 20px 0 0 20px;
+}
+.main-right-qq-12{
+    width: 65%;
+    height: 112px;
+    /* background-color: blue; */
+    border-radius: 0 20px 20px 0;
+    font-size: 14px;
+    padding: 20px;
+}
+.main-right-qq-12 p{
+    margin: 2px 0;
+}
+
+.modal{
+    height: 800px;
+    width: 816px;
+    background-color: white;
+    border-radius: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.2);
+    opacity: 0;
+    display: none;
+    transition:all 0.8 ease 0s;
+    /* position: relative; */
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 10px;
+}
+.modal_bg{
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    backdrop-filter:blur(3px);
+    transition: 0.5 ease;
+}
+#XXX {
+    position: absolute;
+    font-size: 25px;
+    top: 6px;
+    left: 12px;
+    color: black;
+
+}
+.XXXX{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: grey;
+}
+.modal-XX{
+    margin: 100px auto 30px auto;
+    height: 100px;
+    width: 700px;
+    /* background-color: blue; */
+}
+.modal-XX-text{
+    height: 100px;
+    /* background-color:aqua; */
+    width:max-content;
+    margin: 0 auto;
+}
+.modal-XX-text p{
+
+    font-size: 40px;
+    font-weight: 600;
+}
+.modal-XX-texts p {
+    margin: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+.ss{
+    /* background-color:aqua; */
+    width:max-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/* .lololo{
+    position: absolute;
+    top: 100px;
+    bottom: 50px;
+    height: 60px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+} */
+
+.swsw {
+    position: relative;
+    margin: 50px auto;
+    width: 544px;
+    height: 50px;
+    /* background-color:#bf4800; */
+}
+
+.swsw select{
+    width: 544px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid #424245;
+}
+
+.tetete{
+    width:max-content ;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600px;
+    margin: 0 auto;
+}
+
+footer p{
+    margin: 25px 60px 200px 60px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.qwert {
+    /* padding: ; */
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    /* background-color: blue; */
+    position: absolute;
+    bottom: -480px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.qwert p{
+
+    left: 50%;
+    transform:translateX(35%);
+    font-size: 12px;
+    font-weight: 400;
+} 
+.qwertyui{
+    margin: 10px auto;
+    background-color: black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.accordion{
+    margin: 0 auto;
+    height: 200px;
+    width: 700px;
+    padding: 30px;
+
+}
+.tab input,
+.tab-content{
+    display: none;
+}
+.tab {
+    background-color:#424245;
+    color: black;
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+}
+.tab-title{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.tab-title::after{
+    content: "+";
+}
+.tab-content{
+    padding: 10px -15px;
+}
+.tab :checked + .tab-title{
+    border-radius: 5px;
+    background-color: grey;
+}
+.tab :checked + .tab-title::after {
+    content: "-";
+}
+.tab :checked  ~ .tab-content {
+    display: block;
+}
